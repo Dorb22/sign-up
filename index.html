@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="side">
+        <div></div>
     </div>
     <div class="right">
         <p><span>SIGN UP!</span>This is not a real service. For now at least.<p>
@@ -30,7 +31,7 @@
             </div>
             <div>
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" id="phone-number" name="phone-number">
+                <input type="tel" id="phone-number" name="phone-number" pattern="(\\d)" title="Enter digits only.">
             </div>
         </div>
         <div class="row">
@@ -43,11 +44,11 @@
                 <input type="password" id="password" name="password" required>
             </div>
         </div>
-    </form>
     <div class="submit">
         <button>CREATE ACCOUNT</button>
         <div>Already have an account? <a href="">Log in</a></div>
     </div>
+</form>
     </div>
 </body>
 </html>

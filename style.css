@@ -29,6 +29,16 @@ body{
    margin: 0 10px;
 }
 
+.side div{
+    height: 2vh;
+    width: 1vh;
+    position: relative;
+    top: 43vh;
+    left: 30vw;
+    background-color: var(--title-color);
+    border-radius: 50%;
+}
+
 .right{
     height: 85vh;
     width: 55vw;
@@ -67,6 +77,23 @@ label{
 input{
     display: block;
     width: 23vw;
+    font-family: inherit;
+    font-size: 0.8rem;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 15px;
+    height: 2rem;
+    padding: 1rem;
+    transition: all 500ms ease-in-out;
+}
+
+input:focus{
+    outline: none;
+    border-color: var(--title-color);
+    transform: scale(1.1);
+}
+
+input:invalid{
+    border-color: #BA2D0B;
 }
 
 .submit{
@@ -110,4 +137,8 @@ a{
 a:hover{
     color: #49b67f;
     filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.128));
+}
+
+[aria-label]{
+    color: #BA2D0B;
 }
