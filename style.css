@@ -1,0 +1,35 @@
+:root{
+    --title-color: #73BA9B;
+}
+
+@font-face {
+    font-family: conthrax;
+    src: url(conthrax-sb.otf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.side{
+   height: 100vh;
+   width: 40vw;
+   background-image: url(music.svg),
+   url(deci.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom, 0% 10%;
+   margin: 0 10px;
+}
+
+.form{
+    height: 85vh;
+    width: 55vw;
+    background-color: yellow;
+}

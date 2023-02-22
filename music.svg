@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="music.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.42224253"
+     inkscape:cx="311.43239"
+     inkscape:cy="627.60139"
+     inkscape:window-width="1452"
+     inkscape:window-height="708"
+     inkscape:window-x="16"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#d55e45;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       d="m 73.12264,142.84874 c 0,0 0,-2.92903 4.715343,-3.4172 4.715345,-0.48816 4.715345,-0.48816 4.715345,-0.48816 l -3.772273,20.50317 -8.959156,-9.27525 z"
+       id="path8045"
+       inkscape:label="inner shirt" />
+    <path
+       style="fill:#91cdad;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       d="m 78.30952,127.22727 v 31.24295 h 55.64106 V 122.34557 H 78.30952 Z"
+       id="path2729"
+       inkscape:label="neck" />
+    <ellipse
+       style="fill:#d5f2e3;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       id="path296"
+       cx="108.48196"
+       cy="69.141197"
+       inkscape:label="head"
+       rx="64.870598"
+       ry="67.159348" />
+    <path
+       style="fill:#fe3709;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       d="M 95.48146,48.631739 V 2.2554994 c 0,0 8.95915,-0.9763461 13.20295,0 4.2438,0.9763335 3.77228,0.9763335 3.77228,0.9763335 V 49.11991 Z"
+       id="path9250"
+       inkscape:label="band" />
+    <ellipse
+       style="fill:#ba2d0b;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       id="path1740"
+       cx="103.05634"
+       cy="73.798248"
+       inkscape:label="outer red"
+       rx="26.279694"
+       ry="27.206888" />
+    <ellipse
+       style="fill:#fe3709;fill-opacity:1;stroke-width:1.47805;paint-order:markers stroke fill"
+       id="path2522"
+       cx="103.06509"
+       cy="72.796196"
+       inkscape:label="inner red"
+       rx="18.154074"
+       ry="18.79458" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.4466px;fill:#fe3709;fill-opacity:1;stroke-width:9.22034;paint-order:markers stroke fill"
+       x="93.034439"
+       y="79.607948"
+       id="text9307"
+       transform="scale(0.99864265,1.0013592)"
+       inkscape:label="d"><tspan
+         sodipodi:role="line"
+         id="tspan9305"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Conthrax;-inkscape-font-specification:Conthrax;fill:#ffffff;stroke-width:9.22034"
+         x="93.034439"
+         y="79.607948">d</tspan></text>
+    <path
+       style="fill:#003e1f;fill-opacity:1;stroke-width:1.365;paint-order:markers stroke fill"
+       d="m 133.46891,140.36167 c 0,0 5.01291,17.54521 -14.41214,15.03875 -24.435409,-3.15295 -40.729947,-15.66536 -40.729947,-15.66536 0,0 -36.97026,0.62661 -45.116249,16.29198 C 25.064584,171.6924 0,297.01532 0,297.01532 h 209.91589 c 0,0 -16.59262,-122.2152 -29.45089,-145.37459 -10.64144,-19.16659 -46.99609,-11.27906 -46.99609,-11.27906 z"
+       id="path3039"
+       sodipodi:nodetypes="cscsccsc"
+       inkscape:label="shirt" />
+  </g>
+</svg>
