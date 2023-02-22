@@ -19,6 +19,7 @@ body{
     align-items: center;
     margin: 0;
     font-family: conthrax, sans-serif;
+    background-image: linear-gradient(to left, #ff3300b0, white 10%);
 }
 
 .side{
