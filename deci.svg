@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.4204826"
-     inkscape:cx="40.429735"
+     inkscape:cx="14.269318"
      inkscape:cy="280.62992"
      inkscape:window-width="1457"
      inkscape:window-height="742"
@@ -39,16 +39,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-5.104661,-110.58675)">
+     transform="translate(-5.104661,-110.58675)"
+     style="fill:#ffffff">
     <text
        xml:space="preserve"
-       style="font-size:78.2874px;font-family:Conthrax;-inkscape-font-specification:Conthrax;fill:#e6e6e6;stroke-width:33.6574;paint-order:markers stroke fill;fill-opacity:1"
+       style="font-size:78.2874px;font-family:Conthrax;-inkscape-font-specification:Conthrax;fill:#ffffff;stroke-width:33.6574;paint-order:markers stroke fill;fill-opacity:1"
        x="0.87714148"
        y="169.45888"
        id="text1006"><tspan
          sodipodi:role="line"
          id="tspan1004"
-         style="fill:#e6e6e6;fill-opacity:1;stroke-width:33.6574"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:33.6574"
          x="0.87714148"
          y="169.45888">deci</tspan></text>
   </g>

@@ -9,6 +9,9 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body{
@@ -21,23 +24,14 @@ body{
 .side{
    height: 100vh;
    width: 40vw;
-   background-image: url(music.svg),
-   url(deci.svg);
-   background-size: contain;
+   background-image: url(deci.svg),
+   url(music.svg);
+   background-size: 100%, contain;
    background-repeat: no-repeat;
-   background-position: bottom, 0% 10%;
+   background-position: 50% 104.5%, bottom;
    margin: 0 10px;
 }
 
-.side div{
-    height: 2vh;
-    width: 1vh;
-    position: relative;
-    top: 43vh;
-    left: 30vw;
-    background-color: var(--title-color);
-    border-radius: 50%;
-}
 
 .right{
     height: 85vh;
@@ -52,9 +46,10 @@ body{
 }
 
 .right > p{
-    margin: 0;
+    margin: -70px 0 0 0;
     text-align: center;
     color: rgb(171, 171, 171);
+    border: 1px;
 }
 
 p span{
@@ -65,7 +60,7 @@ p span{
 
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 55vw;
 }
 
@@ -76,7 +71,7 @@ label{
 
 input{
     display: block;
-    width: 23vw;
+    width: 90%;
     font-family: inherit;
     font-size: 0.8rem;
     border: 1px solid rgb(171, 171, 171);
