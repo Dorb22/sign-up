@@ -26,7 +26,5 @@ conf.addEventListener('keyup', () => {
         conf.style.borderColor = 'red';
         conf.setCustomValidity("Passwords do not match.");
     }
-    console.log(conf);
 })
-
 

@@ -20,7 +20,6 @@ body{
     align-items: center;
     margin: 0;
     font-family: conthrax, sans-serif;
-    background-image: linear-gradient(to left, #ff330076,  white 10%);
 }
 
 .side{
@@ -32,6 +31,7 @@ body{
    background-repeat: no-repeat;
    background-position: 50% 104.5%, bottom;
    margin: 0 10px;
+   animation: character 800ms ease-out forwards;
 }
 
 
@@ -45,6 +45,29 @@ body{
     padding: 20px;
     font-size: 0.8rem;
     gap: 50px;
+    animation: form 800ms ease-out forwards;
+}
+
+@keyframes character{
+    0%{
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes form{
+    0%{
+        transform: translateY(-30%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .right > p{
@@ -57,7 +80,14 @@ body{
 p span{
     display: block;
     font-size: 2rem;
-    color: var(--title-color);
+    color: #BA2D0B;
+    animation: shift 1s linear alternate infinite;
+}
+
+@keyframes shift{
+    100%{
+        transform: translateY(-0.4rem);
+    }
 }
 
 .row{
@@ -80,12 +110,17 @@ input{
     border-radius: 15px;
     height: 2rem;
     padding: 1rem;
-    transition: all 500ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 input:focus{
     outline: none;
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(10%);
+    border-color: rgb(61, 61, 61)
+}
+
+input:hover{
+    border-color: rgb(61, 61, 61)
 }
 
 .submit{
@@ -110,8 +145,10 @@ button{
 }
 
 button:hover{
-    background-color: var(--title-color);
     color: white;
+    background-color: #BA2D0B;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 
@@ -129,8 +166,8 @@ a{
 }
 
 a:hover{
-    color: #49b67f;
-    filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.128));
+    color: #BA2D0B;
+    
 }
 
 [aria-label]{
