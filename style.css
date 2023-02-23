@@ -1,5 +1,6 @@
 :root{
     --title-color: #128a4e;
+    font-size: 20px;
 }
 
 @font-face {
@@ -19,7 +20,7 @@ body{
     align-items: center;
     margin: 0;
     font-family: conthrax, sans-serif;
-    background-image: linear-gradient(to left, #ff3300b0, white 10%);
+    background-image: linear-gradient(to left, #ff330076,  white 10%);
 }
 
 .side{
@@ -75,7 +76,7 @@ input{
     width: 90%;
     font-family: inherit;
     font-size: 0.8rem;
-    border: 1px solid rgb(171, 171, 171);
+    border: 2px solid rgb(171, 171, 171);
     border-radius: 15px;
     height: 2rem;
     padding: 1rem;
@@ -84,12 +85,7 @@ input{
 
 input:focus{
     outline: none;
-    border-color: var(--title-color);
     transform: scale(1.1);
-}
-
-input:invalid{
-    border-color: #BA2D0B;
 }
 
 .submit{
@@ -110,12 +106,14 @@ button{
     font-family: conthrax, sans-serif;
     color: var(--title-color);
     transition: all 100ms ease-in-out;
+    animation: button 300ms ease-in-out;
 }
 
 button:hover{
     background-color: var(--title-color);
     color: white;
 }
+
 
 form{
     display: flex;
